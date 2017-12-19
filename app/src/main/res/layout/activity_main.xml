@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vedmitryapps.votingapp.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textSize="16sp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/button_bg"
+                android:text="Create"
+                android:onClick="onClick"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/create_button" />
+
+            <Button
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/button_bg"
+                android:text="CONNECT"
+                android:onClick="onClick"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/connect_button"
+                android:layout_below="@+id/create_button"
+                android:layout_alignLeft="@+id/create_button"
+                android:layout_alignStart="@+id/create_button" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
