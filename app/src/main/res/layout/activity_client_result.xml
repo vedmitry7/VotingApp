@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vedmitryapps.votingapp.ClientResultActivity">
+
+   <LinearLayout
+       android:padding="10dp"
+
+       android:layout_width="270dp"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="69dp"
+       android:id="@+id/linearLayout"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true">
+
+       <Button
+           android:padding="10dp"
+           android:layout_marginRight="25dp"
+           android:layout_weight="1"
+           android:textSize="16sp"
+           android:background="@drawable/button_bg"
+           android:text="Yes"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/pos_button" />
+
+       <Button
+           android:padding="10dp"
+
+           android:id="@+id/neg_button"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="25dp"
+           android:layout_weight="1"
+           android:background="@drawable/button_bg"
+           android:text="No"
+           android:textSize="16sp" />
+   </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/linearLayout"
+        android:textSize="16sp"
+        android:background="@drawable/button_bg"
+        android:text="Cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_button"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

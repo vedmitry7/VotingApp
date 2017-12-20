@@ -11,6 +11,7 @@ import com.vedmitryapps.votingapp.R;
 
 public class FragmentSettings extends Fragment {
 
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

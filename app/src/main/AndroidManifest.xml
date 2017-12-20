@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegAuthActivity" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".ServerResultActivity" />
+        <activity android:name=".ClientResultActivity"></activity>
     </application>
 
 </manifest>

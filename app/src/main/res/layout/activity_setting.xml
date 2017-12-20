@@ -4,12 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <EditText
+        android:inputType="number"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_marginTop="72dp"
+        android:id="@+id/editText"
+        android:textSize="16sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/create_finish_button"
+        android:layout_alignStart="@+id/create_finish_button" />
+
     <Button
-        android:id="@+id/create_button"
+        android:id="@+id/create_finish_button"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg"
-        android:onClick="onClick"
+        android:onClick="onClick245"
         android:text="Create"
         android:textSize="16sp"
         android:layout_alignParentBottom="true"
